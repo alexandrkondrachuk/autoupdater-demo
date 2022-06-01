@@ -1,11 +1,11 @@
-import logo from './logo.svg';
+import icon from './electron.png';
 import './App.css';
 
 function App() {
 	return (
 		<div className="App">
 			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
+				<img src={icon} alt="electron"/>
 				<p>
 					Autoupdater Demo v{process.env.REACT_APP_VERSION}
 				</p>
